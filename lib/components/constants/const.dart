@@ -1,0 +1,13 @@
+export 'package:flutter/material.dart';
+export '../../components/constants/const.dart';
+export '../../screens/splash_screen.dart';
+export './color.dart';
+export './string.dart';
+export 'package:velocity_x/velocity_x.dart';
+export 'package:get/get.dart';
+export '../../screens/intro_screen.dart';
+export '../constants/icons.dart';
+export '../constants/logo.dart';
+export './button.dart';
+export '../../screens/register_screen.dart';
+export '../../screens/login_screen.dart';
