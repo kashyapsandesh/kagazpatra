@@ -10,3 +10,6 @@ const house = "मालपोत";
 const muddha = "मुद्धा मामिला";
 const byapar = "व्यवसाय";
 const napi = "नापी";
+const australia = "Australia";
+const canada = "Canada";
+const ward = "वडा कार्यालय";

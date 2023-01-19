@@ -20,6 +20,7 @@ class IntroScreen extends StatelessWidget {
                   Row(
                     children: [
                       IconBox(
+                        iconbackColor: iconbox,
                         textSize: 16,
                         height: 120,
                         width: 120,
@@ -33,6 +34,7 @@ class IntroScreen extends StatelessWidget {
                       ),
                       60.widthBox,
                       IconBox(
+                        iconbackColor: iconbox,
                         textSize: 16,
                         height: 120,
                         width: 120,
@@ -50,6 +52,7 @@ class IntroScreen extends StatelessWidget {
                   Row(
                     children: [
                       IconBox(
+                        iconbackColor: iconbox,
                         textSize: 16,
                         height: 120,
                         width: 120,
@@ -63,6 +66,7 @@ class IntroScreen extends StatelessWidget {
                       ),
                       60.widthBox,
                       IconBox(
+                        iconbackColor: iconbox,
                         textSize: 16,
                         height: 120,
                         width: 120,
@@ -80,6 +84,7 @@ class IntroScreen extends StatelessWidget {
                   Row(
                     children: [
                       IconBox(
+                        iconbackColor: iconbox,
                         textSize: 16,
                         height: 120,
                         width: 120,

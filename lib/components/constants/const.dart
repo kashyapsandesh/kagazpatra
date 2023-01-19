@@ -21,3 +21,7 @@ export '../../components/constants/minilogo.dart';
 export '../constants/appbar.dart';
 export './string.dart';
 export './image_const.dart';
+export '../../screens/malpot/malpot_screen.dart';
+export '../../screens/abroad_study/australia/australia_doc_screen.dart';
+export '../../screens/abroad_study/abroad_study.dart';
+export './tiledata.dart';

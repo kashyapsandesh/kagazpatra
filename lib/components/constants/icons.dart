@@ -7,6 +7,7 @@ class IconBox extends StatelessWidget {
   final double height;
   final double width;
   final double textSize;
+  final Color iconbackColor;
   const IconBox(
       {super.key,
       required this.iconText,
@@ -14,7 +15,7 @@ class IconBox extends StatelessWidget {
       required this.onPress,
       required this.height,
       required this.width,
-      required this.textSize});
+      required this.textSize, required this.iconbackColor});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +25,7 @@ class IconBox extends StatelessWidget {
         height: height,
         width: width,
         decoration: BoxDecoration(
-            color: iconbox, borderRadius: BorderRadius.circular(12)),
+            color: iconbackColor, borderRadius: BorderRadius.circular(12)),
         child: Padding(
           padding: const EdgeInsets.all(18.0),
           child: Wrap(children: [

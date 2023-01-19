@@ -66,6 +66,9 @@ class _AppBarSetState extends State<AppBarSet> {
                           transition: Transition.upToDown,
                         );
                       },
+                      style: ElevatedButton.styleFrom(
+                        primary: Colors.orangeAccent, // Background color
+                      ),
                       child: Text("Sign out"))
                 ],
               ),

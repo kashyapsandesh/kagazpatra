@@ -1,7 +1,7 @@
-import "../../components/constants/const.dart";
+import '../../components/constants/const.dart';
 
-class MalpotScreen extends StatelessWidget {
-  const MalpotScreen({super.key});
+class AbroadStudy extends StatelessWidget {
+  const AbroadStudy({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,10 +26,10 @@ class MalpotScreen extends StatelessWidget {
                       child: Row(
                         children: [
                           15.widthBox,
-                          Image.asset("assets/icons/home.png"),
+                          Image.asset("assets/icons/plane.png"),
                           20.widthBox,
-                          house.text.xl
-                              .size(30)
+                          education.text.xl
+                              .size(18)
                               .bold
                               .color(Color(0xFF009587))
                               .make()
@@ -67,10 +67,10 @@ class MalpotScreen extends StatelessWidget {
                                     width: 110,
                                     icon: const Image(
                                       image: AssetImage(
-                                        'assets/icons/map.png',
+                                        'assets/icons/maple.png',
                                       ),
                                     ),
-                                    iconText: napi,
+                                    iconText: canada,
                                     onPress: () {},
                                   ),
                                 ),
@@ -83,11 +83,16 @@ class MalpotScreen extends StatelessWidget {
                                     width: 110,
                                     icon: const Image(
                                       image: AssetImage(
-                                        'assets/icons/plane.png',
+                                        'assets/icons/city.png',
                                       ),
                                     ),
-                                    iconText: education,
-                                    onPress: () {},
+                                    iconText: australia,
+                                    onPress: () {
+                                      Get.to(
+                                        () => const AustraliaDoc(),
+                                        transition: Transition.upToDown,
+                                      );
+                                    },
                                   ),
                                 ),
                               ],
