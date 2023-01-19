@@ -1,8 +1,9 @@
 import 'const.dart';
 
-class Logo extends StatelessWidget {
+class MiniLogo extends StatelessWidget {
   final Size? size;
-  const Logo({super.key, this.size});
+  const MiniLogo({super.key, this.size});
+  
 
   @override
   Widget build(BuildContext context) {
@@ -10,10 +11,10 @@ class Logo extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          fname.text.size(30).white.fontFamily("mont_bold").make(),
+          fname.text.size(20).white.fontFamily("mont_bold").make(),
           5.widthBox,
           lname.text
-              .size(30)
+              .size(20)
               .color(const Color(0xff374046))
               .fontFamily("mont_bold")
               .make(),

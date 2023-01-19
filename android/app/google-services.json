@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "840677277140",
+    "project_id": "kagazpatra-9380e",
+    "storage_bucket": "kagazpatra-9380e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840677277140:android:450d0dacb78d0a96762a41",
+        "android_client_info": {
+          "package_name": "com.example.kagazpatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840677277140-fi91qgd14pku10o5cvdbdap3ugbvto55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kagazpatra",
+            "certificate_hash": "714012b45d78f43eca20d5558377df4d15672ead"
+          }
+        },
+        {
+          "client_id": "840677277140-lgaj5hbqd13ijru4cl04va9f3mh18m8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvWGXQeDNeu27jUkwdiVX59rCN4iyv1E8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840677277140-lgaj5hbqd13ijru4cl04va9f3mh18m8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

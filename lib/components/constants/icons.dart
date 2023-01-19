@@ -4,19 +4,25 @@ class IconBox extends StatelessWidget {
   final String iconText;
   final Image icon;
   final VoidCallback onPress;
+  final double height;
+  final double width;
+  final double textSize;
   const IconBox(
       {super.key,
       required this.iconText,
       required this.icon,
-      required this.onPress});
+      required this.onPress,
+      required this.height,
+      required this.width,
+      required this.textSize});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: onPress,
       child: Container(
-        height: 120,
-        width: 120,
+        height: height,
+        width: width,
         decoration: BoxDecoration(
             color: iconbox, borderRadius: BorderRadius.circular(12)),
         child: Padding(
@@ -29,7 +35,7 @@ class IconBox extends StatelessWidget {
                 ),
                 20.heightBox,
                 iconText.text
-                    .size(16)
+                    .size(textSize)
                     .color(Color(0xFF009587))
                     .fontWeight(FontWeight.w500)
                     .make()

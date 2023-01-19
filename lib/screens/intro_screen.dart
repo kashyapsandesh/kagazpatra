@@ -10,89 +10,108 @@ class IntroScreen extends StatelessWidget {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(15.0),
-          child: Container(
-            padding: EdgeInsets.all(30),
-            child: Column(
-              children: [
-                Logo(),
-                20.heightBox,
-                Row(
-                  children: [
-                    IconBox(
-                      icon: const Image(
-                        image: AssetImage(
-                          'assets/icons/home.png',
+          child: SafeArea(
+            child: Container(
+              padding: EdgeInsets.all(30),
+              child: Column(
+                children: [
+                  Logo(),
+                  20.heightBox,
+                  Row(
+                    children: [
+                      IconBox(
+                        textSize: 16,
+                        height: 120,
+                        width: 120,
+                        icon: const Image(
+                          image: AssetImage(
+                            'assets/icons/home.png',
+                          ),
                         ),
+                        iconText: house,
+                        onPress: () {},
                       ),
-                      iconText: "मालपोत ",
-                      onPress: () {},
-                    ),
-                    60.widthBox,
-                    IconBox(
-                      icon: const Image(
-                        image: AssetImage(
-                          'assets/icons/business.png',
+                      60.widthBox,
+                      IconBox(
+                        textSize: 16,
+                        height: 120,
+                        width: 120,
+                        icon: const Image(
+                          image: AssetImage(
+                            'assets/icons/business.png',
+                          ),
                         ),
-                      ),
-                      iconText: 'व्यवसाय',
-                      onPress: () {},
-                    )
-                  ],
-                ),
-                20.heightBox,
-                Row(
-                  children: [
-                    IconBox(
-                      icon: const Image(
-                        image: AssetImage(
-                          'assets/icons/case.png',
+                        iconText: byapar,
+                        onPress: () {},
+                      )
+                    ],
+                  ),
+                  20.heightBox,
+                  Row(
+                    children: [
+                      IconBox(
+                        textSize: 16,
+                        height: 120,
+                        width: 120,
+                        icon: const Image(
+                          image: AssetImage(
+                            'assets/icons/case.png',
+                          ),
                         ),
+                        iconText: muddha,
+                        onPress: () {},
                       ),
-                      iconText: "मुद्धा मामिला ",
-                      onPress: () {},
-                    ),
-                    60.widthBox,
-                    IconBox(
-                      icon: const Image(
-                        image: AssetImage(
-                          'assets/icons/map.png',
+                      60.widthBox,
+                      IconBox(
+                        textSize: 16,
+                        height: 120,
+                        width: 120,
+                        icon: const Image(
+                          image: AssetImage(
+                            'assets/icons/map.png',
+                          ),
                         ),
-                      ),
-                      iconText: 'नापी ',
-                      onPress: () {},
-                    )
-                  ],
-                ),
-                20.heightBox,
-                Row(
-                  children: [
-                    IconBox(
-                      icon: const Image(
-                        image: AssetImage(
-                          'assets/icons/plane.png',
+                        iconText: napi,
+                        onPress: () {},
+                      )
+                    ],
+                  ),
+                  20.heightBox,
+                  Row(
+                    children: [
+                      IconBox(
+                        textSize: 16,
+                        height: 120,
+                        width: 120,
+                        icon: const Image(
+                          image: AssetImage(
+                            'assets/icons/plane.png',
+                          ),
                         ),
+                        iconText: education,
+                        onPress: () {},
                       ),
-                      iconText: "बैदेशिक शिक्षा",
-                      onPress: () {},
-                    ),
-                  ],
-                  // ignore: prefer_const_constructors
-                ),
-                25.heightBox,
-                "कार्यालयको चिठी लेख्ने या मुद्धको उजुरी गर्न "
-                    .text
-                    .size(16)
-                    .white
-                    .fontWeight(FontWeight.w500)
-                    .make(),
-                Spacer(),
-                CButton(ctext: 'Continue', onPress: () {
-                      Get.to(
-                        () => const RegisterScreen(),
-                        transition: Transition.upToDown,
-                      );
-                    }),
-              ],
+                    ],
+                    // ignore: prefer_const_constructors
+                  ),
+                  25.heightBox,
+                  "कार्यालयको चिठी लेख्ने या मुद्धको उजुरी गर्न "
+                      .text
+                      .size(16)
+                      .white
+                      .fontWeight(FontWeight.w500)
+                      .make(),
+                  Spacer(),
+                  CButton(
+                      ctext: 'Continue',
+                      onPress: () {
+                        Get.to(
+                          () => const RegisterScreen(),
+                          transition: Transition.upToDown,
+                        );
+                      }),
+                ],
+              ),
             ),
           ),
         ),
